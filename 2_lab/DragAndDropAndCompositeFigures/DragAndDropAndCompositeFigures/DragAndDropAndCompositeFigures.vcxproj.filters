@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Decorator">
+      <UniqueIdentifier>{6a182d2b-3861-454d-8a62-2f6c5dacd572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CCircleDecorator">
+      <UniqueIdentifier>{c5b1ea27-53b6-4c7d-a001-1f648eeb9a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CRectangleDecorator">
+      <UniqueIdentifier>{34dcd598-705d-4849-a70f-eb88599cab7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CTriangleDecorator">
+      <UniqueIdentifier>{bb6f1a61-a441-478e-a364-8f836152192d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CFigureDecorator">
+      <UniqueIdentifier>{676211d0-7d72-48e6-9f6b-2702732d1084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircleDecorator.cpp">
+      <Filter>Decorator\CCircleDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangleDecorator.cpp">
+      <Filter>Decorator\CRectangleDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CTriangleDecorator.cpp">
+      <Filter>Decorator\CTriangleDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CFigureDecorator.cpp">
+      <Filter>Decorator\CFigureDecorator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCircleDecorator.h">
+      <Filter>Decorator\CCircleDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangleDecorator.h">
+      <Filter>Decorator\CRectangleDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CTriangleDecorator.h">
+      <Filter>Decorator\CTriangleDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CFigureDecorator.h">
+      <Filter>Decorator\CFigureDecorator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
