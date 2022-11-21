@@ -152,16 +152,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CCircleDecorator.cpp" />
+    <ClCompile Include="CFigureCompound.cpp" />
     <ClCompile Include="CFigureDecorator.cpp" />
     <ClCompile Include="CRectangleDecorator.cpp" />
     <ClCompile Include="CTriangleDecorator.cpp" />
+    <ClCompile Include="CFigureMovementDecorator.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCircleDecorator.h" />
+    <ClInclude Include="CFigureCompound.h" />
     <ClInclude Include="CFigureDecorator.h" />
     <ClInclude Include="CRectangleDecorator.h" />
     <ClInclude Include="CTriangleDecorator.h" />
+    <ClInclude Include="CFigureMovementDecorator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

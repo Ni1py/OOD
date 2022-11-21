@@ -28,6 +28,15 @@
     <Filter Include="Decorator\CFigureDecorator">
       <UniqueIdentifier>{676211d0-7d72-48e6-9f6b-2702732d1084}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Conpound">
+      <UniqueIdentifier>{c0ef6462-136e-4626-9ea2-8ed326d82c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conpound\CFigureCompound">
+      <UniqueIdentifier>{dd3c93ae-667b-48dc-ad24-b880638813d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CFigureMovementDecorator">
+      <UniqueIdentifier>{46785d6b-8cb9-4adb-8708-72c7fd7a658a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +54,12 @@
     <ClCompile Include="CFigureDecorator.cpp">
       <Filter>Decorator\CFigureDecorator</Filter>
     </ClCompile>
+    <ClCompile Include="CFigureCompound.cpp">
+      <Filter>Conpound\CFigureCompound</Filter>
+    </ClCompile>
+    <ClCompile Include="CFigureMovementDecorator.cpp">
+      <Filter>Decorator\CFigureMovementDecorator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCircleDecorator.h">
@@ -58,6 +73,12 @@
     </ClInclude>
     <ClInclude Include="CFigureDecorator.h">
       <Filter>Decorator\CFigureDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CFigureCompound.h">
+      <Filter>Conpound\CFigureCompound</Filter>
+    </ClInclude>
+    <ClInclude Include="CFigureMovementDecorator.h">
+      <Filter>Decorator\CFigureMovementDecorator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
