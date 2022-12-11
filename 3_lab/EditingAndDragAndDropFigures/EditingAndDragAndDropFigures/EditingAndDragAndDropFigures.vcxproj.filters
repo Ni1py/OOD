@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Decorator">
+      <UniqueIdentifier>{3fca8905-93c2-4b2f-88e2-534b953d9318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compound">
+      <UniqueIdentifier>{96968313-9b44-4142-8284-1e4ed287bb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compound\CFigureCompound">
+      <UniqueIdentifier>{b797bb46-523d-470d-a299-89f428d5c149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CCircleDecorator">
+      <UniqueIdentifier>{aec1e909-5522-4dde-bb49-bc1dc60b1188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CFigureDecorator">
+      <UniqueIdentifier>{3ac5438e-7d24-48f5-8863-567406cdb1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CFigureMovementDecorator">
+      <UniqueIdentifier>{6fc0c32e-574f-4133-8701-ddd2b0666ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CRectangleDecorator">
+      <UniqueIdentifier>{9fdfa1f1-08cc-42f8-9525-3c039fc7a008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator\CTriangleDecorator">
+      <UniqueIdentifier>{edae2d3e-af61-42df-9840-a05d00726a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{90b4da3d-c586-4a08-b0e6-206b31e96372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Toolbar">
+      <UniqueIdentifier>{d7b20f47-f3c2-4932-8c19-bb1e3246f99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{8322861a-92df-4695-b5ea-e715398d4f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{5fc1c792-9de6-4770-a3dd-7eb99c4a15c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FiguresHandler">
+      <UniqueIdentifier>{7637e09e-ba2a-4045-98b1-143913899369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\CDragAndDropState">
+      <UniqueIdentifier>{b1f2a5f8-50af-4a23-b438-662c2e4cf0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\CFillState">
+      <UniqueIdentifier>{efb2cd50-0c3f-443e-812c-772cf05bcf58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\CFillOutlineState">
+      <UniqueIdentifier>{f91d0eef-3885-4220-a9fd-f6c6f26b1486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\CChangeOutlineThicknessState">
+      <UniqueIdentifier>{9ea1e670-2b91-4cdc-add1-536e7ac438ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CFillCommand">
+      <UniqueIdentifier>{afc738bc-aaa0-4963-852b-9eee646fbc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CDragAndDropCommand">
+      <UniqueIdentifier>{2deb0cc9-aac2-48c4-b9ca-99138c869b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CFillOutlineCommand">
+      <UniqueIdentifier>{f5e8c6bf-2d75-404b-ba27-e1806b865f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CChangeOutlineThicknessCommand">
+      <UniqueIdentifier>{da0aa1b7-bf0b-4e76-b09f-3a2086571b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CSetSelectedColorCommand">
+      <UniqueIdentifier>{b64f08b1-7de7-46e9-8315-3a5e264c92e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CCreateCircleFigureCommand">
+      <UniqueIdentifier>{7b381f33-78e3-4b4e-95a5-9e21bd5c8d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CCreateRectangleFigureCommand">
+      <UniqueIdentifier>{0c52576d-eaaa-4085-9633-ebd8cf28a370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\СCreateTriangleFigureCommand">
+      <UniqueIdentifier>{b1f09e88-30f1-46d0-96be-69a5d5e57d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CButton">
+      <UniqueIdentifier>{f7ad55ec-eac4-473d-9e34-34e0a96721b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CSetSelectedThicknessCommand">
+      <UniqueIdentifier>{07b81287-1acd-4ce5-914f-d29855f68a55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CFigureCompound.cpp">
+      <Filter>Compound\CFigureCompound</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircleDecorator.cpp">
+      <Filter>Decorator\CCircleDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CFigureDecorator.cpp">
+      <Filter>Decorator\CFigureDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CFigureMovementDecorator.cpp">
+      <Filter>Decorator\CFigureMovementDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangleDecorator.cpp">
+      <Filter>Decorator\CRectangleDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CTriangleDecorator.cpp">
+      <Filter>Decorator\CTriangleDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolbar.cpp">
+      <Filter>Toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="CFiguresHandler.cpp">
+      <Filter>FiguresHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="CDragAndDropState.cpp">
+      <Filter>State\CDragAndDropState</Filter>
+    </ClCompile>
+    <ClCompile Include="CFillState.cpp">
+      <Filter>State\CFillState</Filter>
+    </ClCompile>
+    <ClCompile Include="CFillOutlineState.cpp">
+      <Filter>State\CFillOutlineState</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeOutlineThicknessState.cpp">
+      <Filter>State\CChangeOutlineThicknessState</Filter>
+    </ClCompile>
+    <ClCompile Include="CFillCommand.cpp">
+      <Filter>Command\CFillCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CDragAndDropCommand.cpp">
+      <Filter>Command\CDragAndDropCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CFillOutlineCommand.cpp">
+      <Filter>Command\CFillOutlineCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeOutlineThicknessCommand.cpp">
+      <Filter>Command\CChangeOutlineThicknessCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetSelectedColorCommand.cpp">
+      <Filter>Command\CSetSelectedColorCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetSelectedThicknessCommand.cpp">
+      <Filter>Command\CSetSelectedThicknessCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreateCircleFigureCommand.cpp">
+      <Filter>Command\CCreateCircleFigureCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreateRectangleFigureCommand.cpp">
+      <Filter>Command\CCreateRectangleFigureCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreateTriangleFigureCommand.cpp">
+      <Filter>Command\СCreateTriangleFigureCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>CButton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFigureCompound.h">
+      <Filter>Compound\CFigureCompound</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircleDecorator.h">
+      <Filter>Decorator\CCircleDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CFigureDecorator.h">
+      <Filter>Decorator\CFigureDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CFigureMovementDecorator.h">
+      <Filter>Decorator\CFigureMovementDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangleDecorator.h">
+      <Filter>Decorator\CRectangleDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CTriangleDecorator.h">
+      <Filter>Decorator\CTriangleDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolbar.h">
+      <Filter>Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="CFiguresHandler.h">
+      <Filter>FiguresHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="CDragAndDropState.h">
+      <Filter>State\CDragAndDropState</Filter>
+    </ClInclude>
+    <ClInclude Include="CFillState.h">
+      <Filter>State\CFillState</Filter>
+    </ClInclude>
+    <ClInclude Include="CFillOutlineState.h">
+      <Filter>State\CFillOutlineState</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeOutlineThicknessState.h">
+      <Filter>State\CChangeOutlineThicknessState</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CFillCommand.h">
+      <Filter>Command\CFillCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CDragAndDropCommand.h">
+      <Filter>Command\CDragAndDropCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CFillOutlineCommand.h">
+      <Filter>Command\CFillOutlineCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeOutlineThicknessCommand.h">
+      <Filter>Command\CChangeOutlineThicknessCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetSelectedColorCommand.h">
+      <Filter>Command\CSetSelectedColorCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetSelectedThicknessCommand.h">
+      <Filter>Command\CSetSelectedThicknessCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreateCircleFigureCommand.h">
+      <Filter>Command\CCreateCircleFigureCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreateRectangleFigureCommand.h">
+      <Filter>Command\CCreateRectangleFigureCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreateTriangleFigureCommand.h">
+      <Filter>Command\СCreateTriangleFigureCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>CButton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
