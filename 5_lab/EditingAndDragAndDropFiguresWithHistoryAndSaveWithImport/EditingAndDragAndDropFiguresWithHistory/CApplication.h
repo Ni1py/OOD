@@ -10,6 +10,8 @@
 #include "CFileHandler.h"
 #include "CSaveTextFileStrategy.h"
 #include "CSaveBinaryFileStrategy.h"
+#include "CImportTextFileStrategy.h"
+#include "CImportBinaryFileStrategy.h"
 
 using namespace std;
 using namespace sf;

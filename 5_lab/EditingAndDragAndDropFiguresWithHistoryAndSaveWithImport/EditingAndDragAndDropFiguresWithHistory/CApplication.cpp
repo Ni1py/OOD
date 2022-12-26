@@ -7,7 +7,7 @@ CApplication::CApplication(istream& input, ostream& output, RenderWindow& window
 {
 	m_figuresHandler = new CFiguresHandler(m_window);
 	m_toolbar = new CToolbar(new CDragAndDropState(), m_window, m_figuresHandler);
-	m_fileHandler = new CFileHandler("savedFile", m_figuresHandler, new CSaveTextFileStrategy());
+	m_fileHandler = new CFileHandler("savedFile", m_figuresHandler, new CSaveTextFileStrategy(), new CImportTextFileStrategy());
 }
 
 CApplication* CApplication::m_instance = nullptr;
@@ -104,6 +104,23 @@ void CApplication::ProcessAnEvent(Event event) {
 					m_fileHandler->Save();
 				}
 
+			}
+
+			if (Keyboard::isKeyPressed(Keyboard::I)) {
+
+				if (Keyboard::isKeyPressed(Keyboard::T)) {
+					if (m_fileHandler->GetTypeImportFileStrategy() != typeid(CImportTextFileStrategy).name()) {
+						m_fileHandler->SetImportFileStrategy(new CImportTextFileStrategy());
+					}
+					m_figuresHandler->ImportMemento(m_fileHandler->Import());
+				}
+
+				if (Keyboard::isKeyPressed(Keyboard::B)) {
+					if (m_fileHandler->GetTypeImportFileStrategy() != typeid(CImportBinaryFileStrategy).name()) {
+						m_fileHandler->SetImportFileStrategy(new CImportBinaryFileStrategy());
+					}
+					m_figuresHandler->ImportMemento(m_fileHandler->Import());
+				}
 			}
 		}
 		break;

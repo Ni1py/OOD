@@ -41,6 +41,7 @@ public:
 
 	void SaveHistory();
 	void UndoHistory();
+	void ImportMemento(CFiguresMemento memento);
 
 	void Draw();
 	vector<CFigureMovementDecorator*> GetFigures() const;

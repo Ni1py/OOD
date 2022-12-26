@@ -136,6 +136,36 @@
     <Filter Include="Strategy\CSaveBinaryFileStrategy">
       <UniqueIdentifier>{d3096ea5-fdf8-457a-9722-a06744166914}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Strategy\CImportFileStrategy">
+      <UniqueIdentifier>{f94ebfb4-8d49-4a62-9b5d-2913885dbe5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy\CImportTextFileStrategy">
+      <UniqueIdentifier>{216568dd-c266-48b8-9bbc-614b7bd50288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy\CImportBinaryFileStrategy">
+      <UniqueIdentifier>{2767e5bb-97bc-414b-bb1b-aac99b05454c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buider">
+      <UniqueIdentifier>{5ead4229-0826-4698-b43d-a0ce427bfe09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buider\CBuilder">
+      <UniqueIdentifier>{73486279-a759-4a1b-b877-7061538baf27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buider\CCircleBuilder">
+      <UniqueIdentifier>{0adaef94-aada-4056-9fc8-9e45ef67d5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buider\CRectangleBuilder">
+      <UniqueIdentifier>{47b2d814-fc2a-4d1d-b24d-ef3cd0102269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buider\CCompoundBuilder">
+      <UniqueIdentifier>{23100965-083b-42c3-9a53-f7e2091779dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buider\CTriangleBuilder">
+      <UniqueIdentifier>{d7fe0257-ee7e-4b2d-a905-17057d1ac9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buider\CFiguresCreator">
+      <UniqueIdentifier>{b5838123-4aa7-44c1-91f3-b9a50da7e618}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -239,6 +269,33 @@
     </ClCompile>
     <ClCompile Include="CSaveBinaryFileStrategy.cpp">
       <Filter>Strategy\CSaveBinaryFileStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CImportFileStrategy.cpp">
+      <Filter>Strategy\CImportFileStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CImportTextFileStrategy.cpp">
+      <Filter>Strategy\CImportTextFileStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CImportBinaryFileStrategy.cpp">
+      <Filter>Strategy\CImportBinaryFileStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuilder.cpp">
+      <Filter>Buider\CBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircleBuilder.cpp">
+      <Filter>Buider\CCircleBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangleBuilder.cpp">
+      <Filter>Buider\CRectangleBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CCompoundBuilder.cpp">
+      <Filter>Buider\CCompoundBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CTriangleBuilder.cpp">
+      <Filter>Buider\CTriangleBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CFiguresCreator.cpp">
+      <Filter>Buider\CFiguresCreator</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -352,6 +409,33 @@
     </ClInclude>
     <ClInclude Include="CSaveBinaryFileStrategy.h">
       <Filter>Strategy\CSaveBinaryFileStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="CImportFileStrategy.h">
+      <Filter>Strategy\CImportFileStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="CImportTextFileStrategy.h">
+      <Filter>Strategy\CImportTextFileStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="CImportBinaryFileStrategy.h">
+      <Filter>Strategy\CImportBinaryFileStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuilder.h">
+      <Filter>Buider\CBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircleBuilder.h">
+      <Filter>Buider\CCircleBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangleBuilder.h">
+      <Filter>Buider\CRectangleBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CCompoundBuilder.h">
+      <Filter>Buider\CCompoundBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CTriangleBuilder.h">
+      <Filter>Buider\CTriangleBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CFiguresCreator.h">
+      <Filter>Buider\CFiguresCreator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

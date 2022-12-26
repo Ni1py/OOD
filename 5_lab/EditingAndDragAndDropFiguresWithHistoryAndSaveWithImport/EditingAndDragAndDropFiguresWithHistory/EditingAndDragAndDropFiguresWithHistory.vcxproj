@@ -141,11 +141,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CApplication.cpp" />
+    <ClCompile Include="CBuilder.cpp" />
     <ClCompile Include="CButton.cpp" />
     <ClCompile Include="CChangeOutlineThicknessCommand.cpp" />
     <ClCompile Include="CChangeOutlineThicknessState.cpp" />
     <ClCompile Include="CChangeOutlineThicknessVisitor.cpp" />
+    <ClCompile Include="CCircleBuilder.cpp" />
     <ClCompile Include="CCircleDecorator.cpp" />
+    <ClCompile Include="CCompoundBuilder.cpp" />
     <ClCompile Include="CCreateCircleFigureCommand.cpp" />
     <ClCompile Include="CCreateRectangleFigureCommand.cpp" />
     <ClCompile Include="CCreateTriangleFigureCommand.cpp" />
@@ -155,6 +158,7 @@
     <ClCompile Include="CFigureCompound.cpp" />
     <ClCompile Include="CFigureDecorator.cpp" />
     <ClCompile Include="CFigureMovementDecorator.cpp" />
+    <ClCompile Include="CFiguresCreator.cpp" />
     <ClCompile Include="CFiguresHandler.cpp" />
     <ClCompile Include="CFileHandler.cpp" />
     <ClCompile Include="CFillCommand.cpp" />
@@ -164,6 +168,10 @@
     <ClCompile Include="CFillState.cpp" />
     <ClCompile Include="CFiguresMemento.cpp" />
     <ClCompile Include="CFillVisitor.cpp" />
+    <ClCompile Include="CImportBinaryFileStrategy.cpp" />
+    <ClCompile Include="CImportFileStrategy.cpp" />
+    <ClCompile Include="CImportTextFileStrategy.cpp" />
+    <ClCompile Include="CRectangleBuilder.cpp" />
     <ClCompile Include="CRectangleDecorator.cpp" />
     <ClCompile Include="CSaveBinaryFileStrategy.cpp" />
     <ClCompile Include="CSaveFileStrategy.cpp" />
@@ -171,17 +179,21 @@
     <ClCompile Include="CSetSelectedColorCommand.cpp" />
     <ClCompile Include="CSetSelectedThicknessCommand.cpp" />
     <ClCompile Include="CToolbar.cpp" />
+    <ClCompile Include="CTriangleBuilder.cpp" />
     <ClCompile Include="CTriangleDecorator.cpp" />
     <ClCompile Include="CUndoCommand.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CApplication.h" />
+    <ClInclude Include="CBuilder.h" />
     <ClInclude Include="CButton.h" />
     <ClInclude Include="CChangeOutlineThicknessCommand.h" />
     <ClInclude Include="CChangeOutlineThicknessState.h" />
     <ClInclude Include="CChangeOutlineThicknessVisitor.h" />
+    <ClInclude Include="CCircleBuilder.h" />
     <ClInclude Include="CCircleDecorator.h" />
+    <ClInclude Include="CCompoundBuilder.h" />
     <ClInclude Include="CConstants.h" />
     <ClInclude Include="CCreateCircleFigureCommand.h" />
     <ClInclude Include="CCreateRectangleFigureCommand.h" />
@@ -192,6 +204,7 @@
     <ClInclude Include="CFigureCompound.h" />
     <ClInclude Include="CFigureDecorator.h" />
     <ClInclude Include="CFigureMovementDecorator.h" />
+    <ClInclude Include="CFiguresCreator.h" />
     <ClInclude Include="CFiguresHandler.h" />
     <ClInclude Include="CFileHandler.h" />
     <ClInclude Include="CFillCommand.h" />
@@ -201,6 +214,10 @@
     <ClInclude Include="CFillState.h" />
     <ClInclude Include="CFiguresMemento.h" />
     <ClInclude Include="CFillVisitor.h" />
+    <ClInclude Include="CImportBinaryFileStrategy.h" />
+    <ClInclude Include="CImportFileStrategy.h" />
+    <ClInclude Include="CImportTextFileStrategy.h" />
+    <ClInclude Include="CRectangleBuilder.h" />
     <ClInclude Include="CRectangleDecorator.h" />
     <ClInclude Include="CSaveBinaryFileStrategy.h" />
     <ClInclude Include="CSaveFileStrategy.h" />
@@ -208,6 +225,7 @@
     <ClInclude Include="CSetSelectedColorCommand.h" />
     <ClInclude Include="CSetSelectedThicknessCommand.h" />
     <ClInclude Include="CToolbar.h" />
+    <ClInclude Include="CTriangleBuilder.h" />
     <ClInclude Include="CTriangleDecorator.h" />
     <ClInclude Include="CUndoCommand.h" />
     <ClInclude Include="ICommand.h" />
