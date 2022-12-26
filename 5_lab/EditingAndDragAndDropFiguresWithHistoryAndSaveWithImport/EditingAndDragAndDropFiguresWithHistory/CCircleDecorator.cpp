@@ -2,8 +2,6 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 
-const string circle = "CIRCLE: ";
-
 CCircleDecorator::CCircleDecorator(CircleShape* circle)
 	:m_circle(circle),
 	CFigureDecorator(circle) {}
@@ -33,7 +31,7 @@ float CCircleDecorator::GetSquare() const {
 }
 
 string CCircleDecorator::GetDescription() const {
-	return circle + " P=" + to_string(GetPerimeter()) + "; S=" + to_string(round(GetSquare()));
+	return circle + ": P=" + to_string(GetPerimeter()) + "; S=" + to_string(round(GetSquare()));
 }
 
 CircleShape* CCircleDecorator::GetCircle() const {

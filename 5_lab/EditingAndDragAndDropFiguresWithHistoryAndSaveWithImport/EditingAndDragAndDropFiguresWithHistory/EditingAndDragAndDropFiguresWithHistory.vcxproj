@@ -156,6 +156,7 @@
     <ClCompile Include="CFigureDecorator.cpp" />
     <ClCompile Include="CFigureMovementDecorator.cpp" />
     <ClCompile Include="CFiguresHandler.cpp" />
+    <ClCompile Include="CFileHandler.cpp" />
     <ClCompile Include="CFillCommand.cpp" />
     <ClCompile Include="CFillOutlineCommand.cpp" />
     <ClCompile Include="CFillOutlineState.cpp" />
@@ -164,6 +165,9 @@
     <ClCompile Include="CFiguresMemento.cpp" />
     <ClCompile Include="CFillVisitor.cpp" />
     <ClCompile Include="CRectangleDecorator.cpp" />
+    <ClCompile Include="CSaveBinaryFileStrategy.cpp" />
+    <ClCompile Include="CSaveFileStrategy.cpp" />
+    <ClCompile Include="CSaveTextFileStrategy.cpp" />
     <ClCompile Include="CSetSelectedColorCommand.cpp" />
     <ClCompile Include="CSetSelectedThicknessCommand.cpp" />
     <ClCompile Include="CToolbar.cpp" />
@@ -178,6 +182,7 @@
     <ClInclude Include="CChangeOutlineThicknessState.h" />
     <ClInclude Include="CChangeOutlineThicknessVisitor.h" />
     <ClInclude Include="CCircleDecorator.h" />
+    <ClInclude Include="CConstants.h" />
     <ClInclude Include="CCreateCircleFigureCommand.h" />
     <ClInclude Include="CCreateRectangleFigureCommand.h" />
     <ClInclude Include="CCreateTriangleFigureCommand.h" />
@@ -188,6 +193,7 @@
     <ClInclude Include="CFigureDecorator.h" />
     <ClInclude Include="CFigureMovementDecorator.h" />
     <ClInclude Include="CFiguresHandler.h" />
+    <ClInclude Include="CFileHandler.h" />
     <ClInclude Include="CFillCommand.h" />
     <ClInclude Include="CFillOutlineCommand.h" />
     <ClInclude Include="CFillOutlineState.h" />
@@ -196,6 +202,9 @@
     <ClInclude Include="CFiguresMemento.h" />
     <ClInclude Include="CFillVisitor.h" />
     <ClInclude Include="CRectangleDecorator.h" />
+    <ClInclude Include="CSaveBinaryFileStrategy.h" />
+    <ClInclude Include="CSaveFileStrategy.h" />
+    <ClInclude Include="CSaveTextFileStrategy.h" />
     <ClInclude Include="CSetSelectedColorCommand.h" />
     <ClInclude Include="CSetSelectedThicknessCommand.h" />
     <ClInclude Include="CToolbar.h" />

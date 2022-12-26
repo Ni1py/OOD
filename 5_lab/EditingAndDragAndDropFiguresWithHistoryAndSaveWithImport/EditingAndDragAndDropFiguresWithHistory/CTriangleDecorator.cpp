@@ -1,7 +1,5 @@
 #include "CTriangleDecorator.h"
 
-const string triangle = "TRIANGLE: ";
-
 CTriangleDecorator::CTriangleDecorator(ConvexShape* triangle)
 	:m_triangle(triangle),
 	CFigureDecorator(triangle) {}
@@ -57,7 +55,7 @@ float CTriangleDecorator::GetSquare() const {
 }
 
 string CTriangleDecorator::GetDescription() const {
-	return triangle + "P=" + to_string(GetPerimeter()) + "; S=" + to_string(round(GetSquare()));
+	return triangle + ": P=" + to_string(GetPerimeter()) + "; S=" + to_string(round(GetSquare()));
 }
 
 ConvexShape* CTriangleDecorator::GetTriangle() const {

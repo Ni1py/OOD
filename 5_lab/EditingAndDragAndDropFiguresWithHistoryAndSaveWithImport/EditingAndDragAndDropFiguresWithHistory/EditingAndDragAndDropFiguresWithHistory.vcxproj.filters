@@ -118,6 +118,24 @@
     <Filter Include="Visitor\CChangeOutlineThicknessVisitor">
       <UniqueIdentifier>{143058d5-89ce-4ccd-818a-781df5188cb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CFileHandler">
+      <UniqueIdentifier>{cb95d0c4-7769-4c8a-b88a-7bc3c25fe4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy">
+      <UniqueIdentifier>{2e1a548b-840c-4444-aff6-b4e91371c4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy\CSaveFileStrategy">
+      <UniqueIdentifier>{a72da6b2-e81e-45df-a766-99364474f6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constants">
+      <UniqueIdentifier>{b4bae84d-1e07-4b20-8646-148e678c86e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy\CSaveTextFileStrategy">
+      <UniqueIdentifier>{3111f923-82c5-4fb2-90cb-355a133cbfe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy\CSaveBinaryFileStrategy">
+      <UniqueIdentifier>{d3096ea5-fdf8-457a-9722-a06744166914}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -209,6 +227,18 @@
     </ClCompile>
     <ClCompile Include="CChangeOutlineThicknessVisitor.cpp">
       <Filter>Visitor\CChangeOutlineThicknessVisitor</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileHandler.cpp">
+      <Filter>CFileHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveFileStrategy.cpp">
+      <Filter>Strategy\CSaveFileStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveTextFileStrategy.cpp">
+      <Filter>Strategy\CSaveTextFileStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveBinaryFileStrategy.cpp">
+      <Filter>Strategy\CSaveBinaryFileStrategy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -307,6 +337,21 @@
     </ClInclude>
     <ClInclude Include="CChangeOutlineThicknessVisitor.h">
       <Filter>Visitor\CChangeOutlineThicknessVisitor</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileHandler.h">
+      <Filter>CFileHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveFileStrategy.h">
+      <Filter>Strategy\CSaveFileStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="CConstants.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveTextFileStrategy.h">
+      <Filter>Strategy\CSaveTextFileStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveBinaryFileStrategy.h">
+      <Filter>Strategy\CSaveBinaryFileStrategy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -10,15 +10,9 @@
 #include "CFigureCompound.h"
 #include "CFiguresMemento.h"
 #include "IVisitor.h"
+#include "CConstants.h"
 #include <sstream>
 #include <stack>
-
-const string triangle = "TRIANGLE";
-const string circle = "CIRCLE";
-const string rectangle = "RECTANGLE";
-
-const float defaultX = 500;
-const float defaultY = 400;
 
 class CFiguresHandler {
 public:

@@ -7,6 +7,7 @@ CApplication::CApplication(istream& input, ostream& output, RenderWindow& window
 {
 	m_figuresHandler = new CFiguresHandler(m_window);
 	m_toolbar = new CToolbar(new CDragAndDropState(), m_window, m_figuresHandler);
+	m_fileHandler = new CFileHandler("savedFile", m_figuresHandler, new CSaveTextFileStrategy());
 }
 
 CApplication* CApplication::m_instance = nullptr;
@@ -77,17 +78,34 @@ void CApplication::ProcessAnEvent(Event event) {
 				m_figuresHandler->ResetTheIndexMovableFigure();
 		break;
 	case Event::KeyPressed:
-		if (typeid(*m_toolbar->GetState()) == typeid(CDragAndDropState))
-			if (Keyboard::isKeyPressed(sf::Keyboard::LControl)) {
+		if (Keyboard::isKeyPressed(sf::Keyboard::LControl)) {
 
-				if (Keyboard::isKeyPressed(sf::Keyboard::G)) {
-					m_figuresHandler->GroupFigures();
-				}
-
-				if (Keyboard::isKeyPressed(sf::Keyboard::U)) {
-					m_figuresHandler->UngroupFigures();
-				}
+			if (Keyboard::isKeyPressed(sf::Keyboard::G)) {
+				m_figuresHandler->GroupFigures();
 			}
+
+			if (Keyboard::isKeyPressed(sf::Keyboard::U)) {
+				m_figuresHandler->UngroupFigures();
+			}
+
+			if (Keyboard::isKeyPressed(Keyboard::S)) {
+
+				if (Keyboard::isKeyPressed(Keyboard::T)) {
+					if (m_fileHandler->GetTypeSaveFileStrategy() != typeid(CSaveTextFileStrategy).name()) {
+						m_fileHandler->SetSaveFileStrategy(new CSaveTextFileStrategy());
+					}
+					m_fileHandler->Save();
+				}
+
+				if (Keyboard::isKeyPressed(Keyboard::B)) {
+					if (m_fileHandler->GetTypeSaveFileStrategy() != typeid(CSaveBinaryFileStrategy).name()) {
+						m_fileHandler->SetSaveFileStrategy(new CSaveBinaryFileStrategy());
+					}
+					m_fileHandler->Save();
+				}
+
+			}
+		}
 		break;
 	}
 

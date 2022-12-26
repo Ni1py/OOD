@@ -1,7 +1,5 @@
 #include "CRectangleDecorator.h";
 
-const string rectangle = "RECTANGLE: ";
-
 CRectangleDecorator::CRectangleDecorator(RectangleShape* rectangle)
 	:m_rectangle(rectangle),
 	CFigureDecorator(rectangle) {}
@@ -33,7 +31,7 @@ float CRectangleDecorator::GetSquare() const {
 }
 
 string CRectangleDecorator::GetDescription() const {
-	return rectangle + "P=" + to_string(GetPerimeter()) + "; S=" + to_string(round(GetSquare()));
+	return rectangle + ": P=" + to_string(GetPerimeter()) + "; S=" + to_string(round(GetSquare()));
 }
 
 RectangleShape* CRectangleDecorator::GetRectangle() const {

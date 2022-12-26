@@ -1,5 +1,7 @@
 #pragma once
+
 #include "CFigureMovementDecorator.h"
+#include "CConstants.h"
 using namespace std;
 using namespace sf;
 

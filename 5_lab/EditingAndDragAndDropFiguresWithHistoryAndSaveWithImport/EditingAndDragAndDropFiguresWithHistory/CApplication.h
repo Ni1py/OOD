@@ -7,6 +7,9 @@
 #include "CFillVisitor.h"
 #include "CFillOutlineVisitor.h"
 #include "CChangeOutlineThicknessVisitor.h"
+#include "CFileHandler.h"
+#include "CSaveTextFileStrategy.h"
+#include "CSaveBinaryFileStrategy.h"
 
 using namespace std;
 using namespace sf;
@@ -32,4 +35,5 @@ private:
 
 	CFiguresHandler* m_figuresHandler;
 	CToolbar* m_toolbar;
+	CFileHandler* m_fileHandler;
 };
