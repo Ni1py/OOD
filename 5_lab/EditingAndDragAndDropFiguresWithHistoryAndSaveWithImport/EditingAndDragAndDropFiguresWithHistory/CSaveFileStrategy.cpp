@@ -48,6 +48,7 @@ string CSaveFileStrategy::GetTriangleInfo(CTriangleDecorator* triangleDecorator)
 	auto point0 = triangleShape->getPoint(0);
 	auto point1 = triangleShape->getPoint(1);
 	auto point2 = triangleShape->getPoint(2);
+	auto position = triangleShape->getPosition();
 	auto fillColor = triangleShape->getFillColor();
 	auto outlineColor = triangleShape->getOutlineColor();
 	auto outlineThickness = triangleShape->getOutlineThickness();
@@ -58,6 +59,7 @@ string CSaveFileStrategy::GetTriangleInfo(CTriangleDecorator* triangleDecorator)
 		<< point0.x << " " << point0.y << " "
 		<< point1.x << " " << point1.y << " " 
 		<< point2.x << " " << point2.y << " "
+		<< position.x << " " << position.y << " "
 		<< fillColor.toInteger() << " " << outlineColor.toInteger()
 		<< " " << static_cast<int>(outlineThickness) << endl;
 

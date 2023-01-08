@@ -12,4 +12,5 @@ private:
 	Vector2f m_point0;
 	Vector2f m_point1;
 	Vector2f m_point2;
+	Vector2f m_position;
 };

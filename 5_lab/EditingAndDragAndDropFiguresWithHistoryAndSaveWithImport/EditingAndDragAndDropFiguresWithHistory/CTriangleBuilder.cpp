@@ -6,11 +6,13 @@ CTriangleBuilder::CTriangleBuilder(vector<unsigned int> characteristics)
 	m_point1({ static_cast<float>(characteristics[2]),
 		static_cast<float>(characteristics[3]) }),
 	m_point2({ static_cast<float>(characteristics[4]),
-		static_cast<float>(characteristics[5]) })
+		static_cast<float>(characteristics[5]) }),
+	m_position({ static_cast<float>(characteristics[6]),
+		static_cast<float>(characteristics[7]) })
 {
-	m_fillColor = characteristics[6];
-	m_outlineColor = characteristics[7];
-	m_outlineThickness = characteristics[8];
+	m_fillColor = characteristics[8];
+	m_outlineColor = characteristics[9];
+	m_outlineThickness = characteristics[10];
 }
 
 void CTriangleBuilder::SetShape() {
@@ -23,20 +25,5 @@ void CTriangleBuilder::SetShape() {
 }
 
 void CTriangleBuilder::SetPosition() {
-	float minX;
-	float minY;
-
-	if (m_point0.x < m_point1.x && m_point0.x < m_point2.x)
-		minX = m_point0.x;
-	else if (m_point1.x < m_point0.x && m_point1.x < m_point2.x)
-		minX = m_point1.x;
-	else minX = m_point2.x;
-
-	if (m_point0.y < m_point1.y && m_point0.y < m_point2.y)
-		minY = m_point0.y;
-	else if (m_point1.y < m_point0.y && m_point1.y < m_point2.y)
-		minY = m_point1.y;
-	else minY = m_point2.y;
-
-	m_figure->SetPosition(minX, minY);
+	m_figure->SetPosition(m_position.x, m_position.y);
 }

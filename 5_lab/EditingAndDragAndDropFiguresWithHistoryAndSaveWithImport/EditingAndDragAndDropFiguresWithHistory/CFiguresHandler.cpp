@@ -222,11 +222,13 @@ void CFiguresHandler::UndoHistory() {
 }
 
 void CFiguresHandler::ImportMemento(CFiguresMemento memento) {
-	SaveHistory();
-	m_figures = memento.GetFigures();
-	m_selectedFigures = memento.GetSelectedFigures();
-	m_indexMovableFigure = -1;
-	m_cursorPosition = Vector2i(0, 0);
-	m_dX = 0;
-	m_dY = 0;
+	if (memento.GetFigures().size() != 0) {
+		SaveHistory();
+		m_figures = memento.GetFigures();
+		m_selectedFigures = memento.GetSelectedFigures();
+		m_indexMovableFigure = -1;
+		m_cursorPosition = Vector2i(0, 0);
+		m_dX = 0;
+		m_dY = 0;
+	}
 }
